@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { useTranslation } from "react-i18next"; // Importa el hook
-import LanguageSwitcher from "./LanguageSwitcher"; // Importa el componente
+import { useTranslation } from "react-i18next"; 
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const NavBar = () => {
-  const { t } = useTranslation(); // Inicializa el hook
+  const { t } = useTranslation();
   const nav_items = "hover:cursor-pointer hover:text-dark-green";
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -40,13 +40,13 @@ const NavBar = () => {
         </div>
 
         <div className="md:flex hidden mr-10 gap-4 items-center">
-          <LanguageSwitcher /> {/* Agrega el selector de idioma */}
-          <a href="register">
+          <LanguageSwitcher />
+          <a href="https://deploy-appwebs.web.app/sign-in">
             <button className="bg-[#cdffd6] rounded-2xl py-0 md:py-2 md:px-3 hover:cursor-pointer">
               {t("navbar.register")}
             </button>
           </a>
-          <a href="login">
+          <a href="https://deploy-appwebs.web.app/sign-in">
             <button className="bg-[#63b663] rounded-2xl md:py-2 md:px-3 hover:cursor-pointer">
               {t("navbar.login")}
             </button>
@@ -104,20 +104,19 @@ const NavBar = () => {
             {t("navbar.join")}
           </a>
           <a
-            href="login"
+            href="https://deploy-appwebs.web.app/sign-in"
             className="block px-4 py-2 text-[#245e4f] font-bold hover:bg-gray-100"
           >
             {t("navbar.login")}
           </a>
           <a
-            href="register"
+            href="https://deploy-appwebs.web.app/sign-in"
             className="block px-4 py-2 text-[#245e4f] font-bold hover:bg-gray-100"
           >
             {t("navbar.register")}
           </a>
           <div className="block px-4 py-2">
-            <LanguageSwitcher />{" "}
-            {/* Agrega el selector de idioma en el menú móvil */}
+            <LanguageSwitcher />
           </div>
         </div>
       )}
