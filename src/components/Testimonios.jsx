@@ -1,6 +1,6 @@
 import { FaStar } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
-import { motion, animate } from "framer-motion";
+import { motion } from "framer-motion";
 import { useState } from "react";
 
 const Testimonials = () => {
@@ -29,15 +29,21 @@ const Testimonials = () => {
 
   const [current, setCurrent] = useState(0);
 
-  // función para mover en círculo
+
   const move = (direction) => {
     setCurrent((prev) => (prev + direction + testimonials.length) % testimonials.length);
   };
 
   return (
     <section id="testimonios" className="bg-white py-12 text-center px-6 scroll-mt-30">
-      {/* Estrellas decorativas */}
-      <div className="text-yellow-500 text-4xl flex justify-center gap-1 mb-2">
+      {/* Estrellas y título con animación de scroll */}
+      <motion.div
+        className="text-yellow-500 text-4xl flex justify-center gap-1 mb-2"
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        viewport={{ amount: 0.3 }}
+      >
         {[...Array(5)].map((_, i) => (
           <FaStar
             key={i}
@@ -45,13 +51,36 @@ const Testimonials = () => {
             style={{ animationDelay: `${i * 0.3}s` }}
           />
         ))}
-      </div>
+      </motion.div>
 
-      <p className="font-bold text-lg mb-2">+50,000</p>
-      <p className="text-gray-600 mb-10">{t("testimonials.title")}</p>
+      <motion.p
+        className="font-bold text-lg mb-2"
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
+        viewport={{ amount: 0.3 }}
+      >
+        +50,000
+      </motion.p>
+
+      <motion.p
+        className="text-gray-600 mb-10"
+        initial={{ opacity: 0, y: 10 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, delay: 0.3 }}
+        viewport={{ amount: 0.3 }}
+      >
+        {t("testimonials.title")}
+      </motion.p>
 
       {/* Carrusel circular */}
-      <div className="flex justify-center items-center gap-4">
+      <motion.div
+        className="flex justify-center items-center gap-4"
+        initial={{ opacity: 0, scale: 0.95 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.7, ease: "easeOut" }}
+        viewport={{ amount: 0.3 }}
+      >
         {/* Botón izquierda */}
         <button
           onClick={() => move(-1)}
@@ -65,6 +94,10 @@ const Testimonials = () => {
           <motion.div
             key={`left-${current}`}
             className="bg-white shadow-md rounded-xl p-6 w-64 border border-gray-100 opacity-50 scale-90 transition-all duration-300"
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 0.5, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            viewport={{ amount: 0.3 }}
           >
             <CardContent testimonial={testimonials[(current - 1 + testimonials.length) % testimonials.length]} />
           </motion.div>
@@ -74,6 +107,10 @@ const Testimonials = () => {
             key={`center-${current}`}
             layout
             className="bg-white shadow-lg rounded-xl p-6 w-72 border border-gray-100 scale-105 transition-all duration-300"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ amount: 0.3 }}
           >
             <CardContent testimonial={testimonials[current]} />
           </motion.div>
@@ -82,6 +119,10 @@ const Testimonials = () => {
           <motion.div
             key={`right-${current}`}
             className="bg-white shadow-md rounded-xl p-6 w-64 border border-gray-100 opacity-50 scale-90 transition-all duration-300"
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 0.5, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            viewport={{ amount: 0.3 }}
           >
             <CardContent testimonial={testimonials[(current + 1) % testimonials.length]} />
           </motion.div>
@@ -94,10 +135,16 @@ const Testimonials = () => {
         >
           <img src="arrow_right.png" alt="Next" className="w-4 h-4" />
         </button>
-      </div>
+      </motion.div>
 
       {/* Dots */}
-      <div className="flex justify-center mt-4 gap-2">
+      <motion.div
+        className="flex justify-center mt-4 gap-2"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.3 }}
+        viewport={{ amount: 0.2 }}
+      >
         {testimonials.map((_, i) => (
           <button
             key={i}
@@ -107,12 +154,12 @@ const Testimonials = () => {
             }`}
           />
         ))}
-      </div>
+      </motion.div>
     </section>
   );
 };
 
-// Extraemos el contenido de la card para reutilizar
+
 const CardContent = ({ testimonial }) => (
   <>
     <img src={testimonial.img} alt={testimonial.name} className="w-14 h-14 rounded-full mb-4 mx-auto" />
