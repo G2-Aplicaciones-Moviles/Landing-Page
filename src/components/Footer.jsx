@@ -4,46 +4,42 @@ const Footer = () => {
   const { t } = useTranslation(); // Inicializa el hook
 
   return (
-    <footer className="bg-green-100 text-sm text-gray-700 py-10 px-6">
-      <div className="flex flex-col md:flex-row justify-between mb-6">
-        <div>
-          <h3 className="font-semibold mb-2">{t("footer.social_media")}</h3>
-          <div className="flex gap-4">
-            <a href="#">
-              <img src="instagram.svg" alt="Instagram" className="w-10" />
-            </a>
-            <a href="#">
-              <img src="facebook.svg" alt="Facebook" className="w-10" />
-            </a>
-            <a href="#">
-              <img src="youtube.svg" alt="Youtube" className="w-10" />
-            </a>
-          </div>
-          <p className="mt-2">{t("footer.languages")}: {t("footer.language")}</p>
-        </div>
-
-        <div>
-          <h3 className="font-semibold mb-2">{t("footer.learn")}</h3>
-          <a>
-            <p>{t("footer.articles")}</p>
-          </a>
-          <a>
-            <p>{t("footer.posts")}</p>
-          </a>
-        </div>
-
-        <div>
-          <h3 className="font-semibold mb-2">{t("footer.company")}</h3>
-          <p>{t("footer.contact")}</p>
-          <p>{t("footer.terms")}</p>
-          <p>{t("footer.privacy")}</p>
-        </div>
+    <footer className="bg-gray-300 text-gray-700 text-sm py-10 px-6">
+  <div className="flex flex-col md:flex-row justify-between mb-6">
+    <div>
+      <h3 className="font-semibold text-gray-900 mb-2">{t("footer.social_media")}</h3>
+      <div className="flex gap-4">
+        <a href="#" className="hover:opacity-80 transition-opacity">
+          <img src="instagram.png" alt="Instagram" className="w-10" />
+        </a>
+        <a href="#" className="hover:opacity-80 transition-opacity">
+          <img src="facebook.png" alt="Facebook" className="w-10" />
+        </a>
+        <a href="#" className="hover:opacity-80 transition-opacity">
+          <img src="youtube.png" alt="Youtube" className="w-10" />
+        </a>
       </div>
+      <p className="mt-2">{t("footer.languages")}: {t("footer.language")}</p>
+    </div>
+
+    <div>
+      <h3 className="font-semibold text-gray-900 mb-2">{t("footer.learn")}</h3>
+      <p className="hover:text-gray-900 cursor-pointer transition-colors">{t("footer.articles")}</p>
+      <p className="hover:text-gray-900 cursor-pointer transition-colors">{t("footer.posts")}</p>
+    </div>
+
+    <div>
+      <h3 className="font-semibold text-gray-900 mb-2">{t("footer.company")}</h3>
+      <p className="hover:text-gray-900 cursor-pointer transition-colors">{t("footer.contact")}</p>
+      <p className="hover:text-gray-900 cursor-pointer transition-colors">{t("footer.terms")}</p>
+      <p className="hover:text-gray-900 cursor-pointer transition-colors">{t("footer.privacy")}</p>
+    </div>
+  </div>
 
       <div className="text-xs border-t pt-4">
         {t("footer.support")}{" "}
         <a
-          className="text-blue-600 underline"
+          className="text-[#099fe1] underline"
           href="mailto:support@alimentateplus.app"
         >
           {t("footer.email")}

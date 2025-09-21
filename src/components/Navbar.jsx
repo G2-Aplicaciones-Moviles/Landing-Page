@@ -4,7 +4,7 @@ import LanguageSwitcher from "./LanguageSwitcher";
 
 const NavBar = () => {
   const { t } = useTranslation();
-  const nav_items = "hover:cursor-pointer hover:text-dark-green";
+  const nav_items = "hover:cursor-pointer hover:text-gray-600";
   const [menuOpen, setMenuOpen] = useState(false);
 
   function toogleMenu() {
@@ -18,13 +18,13 @@ const NavBar = () => {
           <a href="/">
             <img
               className="px-3 w-50"
-              src="alimentatepluslogo.png"
+              src="Jameo-fit-logo.png"
               alt="Logo"
             />
           </a>
         </div>
 
-        <div className="md:flex md:ml-auto md:mr-auto text-lg hidden items-center justify-center gap-10">
+        <div className="md:flex md:ml-auto md:mr-auto text-xl hidden items-center justify-center gap-10">
           <a className={nav_items} href="#Para-ti">
             {t("navbar.for_you")}
           </a>
@@ -42,12 +42,12 @@ const NavBar = () => {
         <div className="md:flex hidden mr-10 gap-4 items-center">
           <LanguageSwitcher />
           <a href="https://deploy-appwebs.web.app/sign-in">
-            <button className="bg-[#cdffd6] rounded-2xl py-0 md:py-2 md:px-3 hover:cursor-pointer">
+            <button className="bg-[#10b34c] text-white rounded-2xl py-0 md:py-2 md:px-3 hover:cursor-pointer ">
               {t("navbar.register")}
             </button>
           </a>
           <a href="https://deploy-appwebs.web.app/sign-in">
-            <button className="bg-[#63b663] rounded-2xl md:py-2 md:px-3 hover:cursor-pointer">
+            <button className="bg-[#099fe1] text-white rounded-2xl md:py-2 md:px-3 hover:cursor-pointer">
               {t("navbar.login")}
             </button>
           </a>
