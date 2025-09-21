@@ -10,51 +10,52 @@
   },
   "homepage": {
     "title": "Eat Well, Live Better",
-    "subtitle": "Nutrition that understands you",
-    "description": "At Alimentate+, we design personalized meal plans that adapt to you, not the other way around. With smart technology and a human approach, we help you transform your habits without complications.",
+    "subtitle": "Smart nutrition for individuals and professionals",
+    "description": "At Jameo Fit, we believe that good nutrition shouldn’t be complicated. Our platform connects young adults with nutritionists, combining personalized plans, practical recipes, and professional tracking in one digital ecosystem.",
+    "aditional_description": "With technology that understands people and tools that empower specialists, we promote healthy and sustainable habits for everyone.",
     "benefit1": "Lose fat without losing flavor",
     "benefit2": "Build muscle with real recipes",
-    "benefit3": "Improve your wellbeing, day by day",
-    "image_alt": "Healthy food on a table"
+    "benefit3": "Improve your well-being with professional support",
+    "image_alt": "Nutritionist with their patient"
   },
   "for_you": {
-    "title": "What does Alimentate+ do for you?",
-    "benefit1": "Smart evaluation",
-    "benefit1_desc": "Answer a short questionnaire and get a nutritional analysis tailored to you from the first click.",
+    "title": "What does Jameo Fit do for you?",
+    "benefit1": "Smart assessment",
+    "benefit1_desc": "Answer a short questionnaire and get a nutritional analysis tailored to you from the very first click. Nutritionists receive this information to further personalize your plan.",
     "benefit2": "Real-time tracking",
-    "benefit2_desc": "Track your progress with dynamic graphs and weekly reports that speak your language.",
+    "benefit2_desc": "Track your progress with dynamic charts and weekly reports that speak your language. Specialists can review your progress and adjust your plan easily.",
     "benefit3": "Personalized plans",
-    "benefit3_desc": "We design menus that adapt to your tastes, routine, and goals. Eating well doesn't have to be complicated.",
+    "benefit3_desc": "We design menus that adapt to your tastes, routine, and goals. For nutritionists, it’s a reliable tool to create and update evidence-based plans.",
     "benefit4": "Nutrition that adapts to you",
-    "benefit4_desc": "For those who want to feel better without counting calories every step of the way."
+    "benefit4_desc": "Enjoy a flexible experience that fits your lifestyle. At the same time, professionals have a digital ally to support you every step of the way."
   },
   "testimonials": {
     "title": "What our users say",
     "user1": {
-      "name": "Camila R.",
-      "text": "“Easy, practical, and super personalized.”",
-      "sub": "I loved how it adapts my meals to my tastes and goals."
+      "name": "Lic. María Torres",
+      "text": "“A tool that amplifies my impact.”",
+      "sub": "I can support more patients, adjust plans, and motivate them with real data."
     },
     "user2": {
       "name": "Andrés M.",
       "text": "“I lost 4kg without suffering.”",
-      "sub": "It motivates me to see my daily progress and eat what I like."
+      "sub": "Seeing my daily progress motivates me and I can still eat what I like."
     },
     "user3": {
       "name": "Nico D.",
       "text": "“The design is clean and easy to use.”",
-      "sub": "Everything is well organized, I find what I'm looking for in seconds."
+      "sub": "Everything is well organized, I find what I need in seconds."
     }
   },
   "how_it_works": {
     "title": "How does it work?",
     "step1": "Answer a short questionnaire about your goals and preferences.",
-    "step2": "Receive your personalized meal plan in seconds.",
-    "step3": "Adjust and track your progress with simple and visual tools."
+    "step2": "Receive your personalized meal plan in seconds, backed by science and professionals.",
+    "step3": "Adjust and track your progress with simple and visual tools, while your nutritionist supports you every step of the way."
   },
   "cta": {
     "title": "Start for free today",
-    "description": "Your healthy journey starts now, smart nutrition and results.",
+    "description": "Your healthy journey starts now. Connect with nutritionists, get smart plans, and achieve sustainable results.",
     "button": "Get Started",
     "app_store": "App Store",
     "google_play": "Google Play",
@@ -71,8 +72,8 @@
     "contact": "Contact",
     "terms": "Terms and Conditions",
     "privacy": "Privacy Policy",
-    "support": "Do you have more questions? Contact us at",
-    "email": "support@alimentateplus.app",
-    "rights": "© 2025 Alimentate Plus. All rights reserved."
+    "support": "Have more questions? Contact us at",
+    "email": "support@jameofit.app",
+    "rights": "© 2025 Jameo Fit. All rights reserved."
   }
 }
