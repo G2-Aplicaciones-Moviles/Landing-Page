@@ -5,35 +5,36 @@
     "testimonials": "Nuestros Usuarios",
     "how_it_works": "Cómo Funciona",
     "join": "Únete",
-    "register": "Registrarse",
+    "register": "Comienza",
     "login": "Iniciar Sesión"
   },
   "homepage": {
     "title": "Come Bien, Vive Mejor",
-    "subtitle": "Nutrición que te entiende",
-    "description": "En Alimentate+, diseñamos planes de alimentación personalizados que se adaptan a ti, no al revés. Con tecnología inteligente y un enfoque humano, te ayudamos a transformar tus hábitos sin complicaciones.",
+    "subtitle": "Nutrición inteligente para personas y profesionales",
+    "description": "En Jameo Fit, creemos que una buena alimentación no debe ser complicada. Nuestra plataforma conecta a jóvenes adultos con nutricionistas, combinando planes personalizados, recetas prácticas y seguimiento profesional en un solo ecosistema digital.",
+    "aditional_description": "Con tecnología que entiende a las personas y herramientas que potencian a los especialistas, impulsamos hábitos saludables y sostenibles para todos",
     "benefit1": "Pierde grasa sin perder sabor",
     "benefit2": "Gana músculo con recetas reales",
-    "benefit3": "Mejora tu bienestar, día a día",
-    "image_alt": "Comida saludable sobre una mesa"
+    "benefit3": "Mejora tu bienestar con acompañamiento profesional",
+    "image_alt": "Nutricionista junto a su paciente"
   },
   "for_you": {
-    "title": "¿Qué hace Alimentate+ por ti?",
+    "title": "¿Qué hace Jameo Fit por ti?",
     "benefit1": "Evaluación inteligente",
-    "benefit1_desc": "Responde un breve cuestionario y obtén un análisis nutricional adaptado a ti desde el primer clic.",
+    "benefit1_desc": "Responde un breve cuestionario y obtén un análisis nutricional adaptado a ti desde el primer clic. Los nutricionistas reciben esta información para personalizar aún más tu plan.",
     "benefit2": "Seguimiento en tiempo real",
-    "benefit2_desc": "Sigue tu progreso con gráficos dinámicos e informes semanales que hablan tu idioma.",
+    "benefit2_desc": "Monitorea tu progreso con gráficos dinámicos e informes semanales que hablan tu idioma. Los especialistas pueden revisar tu avance y ajustar tu plan sin complicaciones.",
     "benefit3": "Planes personalizados",
-    "benefit3_desc": "Diseñamos menús que se adaptan a tus gustos, rutina y objetivos. Comer bien no tiene que ser complicado.",
+    "benefit3_desc": "Diseñamos menús que se adaptan a tus gustos, rutina y objetivos. Para los nutricionistas, es una herramienta confiable para crear y actualizar planes basados en evidencia.",
     "benefit4": "Nutrición que se adapta a ti",
-    "benefit4_desc": "Para quienes quieren sentirse mejor sin contar calorías en cada paso."
+    "benefit4_desc": "Disfruta una experiencia flexible que se ajusta a tu estilo de vida. Al mismo tiempo, los profesionales cuentan con un aliado digital para acompañarte en cada etapa."
   },
   "testimonials": {
     "title": "Lo que dicen nuestros usuarios",
     "user1": {
-      "name": "Camila R.",
-      "text": "“Fácil, práctico y súper personalizado.”",
-      "sub": "Me encantó cómo adapta mis comidas a mis gustos y objetivos."
+      "name": "Lic. María Torres",
+      "text": "“Una herramienta que amplifica mi impacto.”",
+      "sub": "Puedo acompañar a más pacientes, ajustar planes y motivarlos con evidencia real."
     },
     "user2": {
       "name": "Andrés M.",
@@ -49,12 +50,12 @@
   "how_it_works": {
     "title": "¿Cómo funciona?",
     "step1": "Responde un breve cuestionario sobre tus objetivos y preferencias.",
-    "step2": "Recibe tu plan de alimentación personalizado en segundos.",
-    "step3": "Ajusta y sigue tu progreso con herramientas simples y visuales."
+    "step2": "Recibe tu plan de alimentación personalizado en segundos, respaldado por ciencia y profesionales.",
+    "step3": "Ajusta y sigue tu progreso con herramientas simples y visuales, mientras tu nutricionista te acompaña en cada etapa."
   },
   "cta": {
     "title": "Empieza gratis hoy",
-    "description": "Tu camino hacia una vida saludable comienza ahora, nutrición inteligente y resultados.",
+    "description": "Tu camino hacia una vida saludable comienza ahora. Conecta con nutricionistas, recibe planes inteligentes y alcanza resultados sostenibles.",
     "button": "Comenzar",
     "app_store": "App Store",
     "google_play": "Google Play",
@@ -72,7 +73,7 @@
     "terms": "Términos y Condiciones",
     "privacy": "Política de Privacidad",
     "support": "¿Tienes más preguntas? Contáctanos en",
-    "email": "support@alimentateplus.app",
-    "rights": "© 2025 Alimentate Plus. Todos los derechos reservados."
+    "email": "support@jameofit.app",
+    "rights": "© 2025 Jameo Fit. Todos los derechos reservados."
   }
 }
