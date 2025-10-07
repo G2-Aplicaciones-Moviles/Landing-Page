@@ -6,19 +6,20 @@ import CTA from "./CTA";
 import Footer from "./Footer";
 import NavBar from "./Navbar";
 
-
 const HomePage = () => {
-    return (
+  return (
     <>
-        <NavBar/>
-        <Inicio/>
-        <ParaTi/>
-        <Testimonios/>
-        <ComoFunciona/> 
-        <CTA/> 
-        <Footer/>
+      <NavBar />
+      <main className="w-full pt-[60px] md:pt-[80px]">
+        <Inicio />
+        <ParaTi />
+        <Testimonios />
+        <ComoFunciona />
+        <CTA />
+      </main>
+      <Footer />
     </>
-    );
+  );
 };
 
-export default HomePage
+export default HomePage;

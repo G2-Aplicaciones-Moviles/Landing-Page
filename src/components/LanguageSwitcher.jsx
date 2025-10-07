@@ -10,11 +10,11 @@ function LanguageSwitcher() {
 
   return (
     <div className="flex items-center gap-2">
-      <img src="WorldIcon.png" alt="Language" className="w-5 h-5" />
+      <img src="WorldIcon.png" alt="Language" className="w-8 h-8" />
       <select
         onChange={(e) => changeLanguage(e.target.value)}
         value={i18n.language}
-        className="cursor-pointer outline-none"
+        className="bg-transparent text-black cursor-pointer outline-none"
       >
         <option value="es" className="text-black">
           Español
