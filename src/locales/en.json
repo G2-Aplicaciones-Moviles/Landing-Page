@@ -75,5 +75,39 @@
     "support": "Have more questions? Contact us at",
     "email": "support@jameofit.app",
     "rights": "© 2025 Jameo Fit. All rights reserved."
+  },
+  "app_showcase": {
+  "title": "Discover JameoFit",
+  "subtitle": "Explore the main features of our mobile app",
+  "screenshots": {
+    "home": {
+      "title": "Home View",
+      "description": "JameoFit main screen"
+    },
+    "goals": {
+      "title": "My Goals",
+      "description": "Track your objectives"
+    },
+    "meal_plans": {
+      "title": "Meal Plans",
+      "description": "Personalized meal plans"
+    },
+    "meal_detail": {
+      "title": "Plan Details",
+      "description": "Complete information about your plan"
+    },
+    "nutritionists": {
+      "title": "Nutritionists",
+      "description": "Find your ideal nutritionist"
+    },
+    "welcome": {
+      "title": "Welcome View",
+      "description": "Start your journey to a healthy life"
+    },
+    "tips": {
+      "title": "Nutrition Tips",
+      "description": "Advice for a healthy lifestyle"
+    }
   }
+}
 }

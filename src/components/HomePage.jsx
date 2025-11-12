@@ -5,6 +5,7 @@ import ComoFunciona from "./ComoFunciona";
 import CTA from "./CTA";
 import Footer from "./Footer";
 import NavBar from "./Navbar";
+import AppShowcase from "./AppShowcase";
 
 const HomePage = () => {
   return (
@@ -14,8 +15,7 @@ const HomePage = () => {
         <Inicio />
         <ParaTi />
         <Testimonios />
-        <ComoFunciona />
-        <CTA />
+        <AppShowcase />
       </main>
       <Footer />
     </>
