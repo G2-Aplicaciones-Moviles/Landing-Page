@@ -6,6 +6,7 @@ import CTA from "./CTA";
 import Footer from "./Footer";
 import NavBar from "./Navbar";
 import AppShowcase from "./AppShowcase";
+import MeetTheProduct from "./MeetTheProduct";
 import MeetTheTeam from "./MeetTheTeam";
 
 const HomePage = () => {
@@ -17,6 +18,7 @@ const HomePage = () => {
         <ParaTi />
         <Testimonios />
         <AppShowcase />
+        <MeetTheProduct />
         <MeetTheTeam />
       </main>
       <Footer />
